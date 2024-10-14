@@ -2,9 +2,9 @@
 dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
 #########################
-REPO1="https://raw.githubusercontent.com/BvsshXyz/Xixixi/main"
-REPO="https://raw.githubusercontent.com/BvsshXyz/Xixixi/main"
-CDNF="https://raw.githubusercontent.com/BvsshXyz/Xixixi/main"
+REPO1="https://raw.githubusercontent.com/BvsshXyz/Xixixi/main/"
+REPO="https://raw.githubusercontent.com/BvsshXyz/Xixixi/main/"
+CDNF="https://raw.githubusercontent.com/BvsshXyz/Xixixi/main/"
 ###
 BURIQ () {
     curl -sS https://raw.githubusercontent.com/BvsshXyz/NewUpdate/main/regis > /root/tmp
